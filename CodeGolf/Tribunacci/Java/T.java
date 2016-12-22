@@ -1,0 +1,1 @@
+class T{public static void main(String[]a){for(int i=1;i<51;)System.out.println(t(i++));}static long t(int n){return n<3?1:t(n-1)+t(n-2)+t(n-3);}}
